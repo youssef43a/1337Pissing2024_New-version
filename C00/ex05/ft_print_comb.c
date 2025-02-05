@@ -6,14 +6,14 @@
 /*   By: kali <kali@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/03 06:47:09 by kali              #+#    #+#             */
-/*   Updated: 2025/02/03 10:03:03 by kali             ###   ########.fr       */
+/*   Updated: 2025/02/05 04:53:35 by kali             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
 void ft_putchar(char c) {
-    write(0, &c, 1);
+    write(1, &c, 1);
 }
 
 void ft_putdigits(char i, char j, char k) {
